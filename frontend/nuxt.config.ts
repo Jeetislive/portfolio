@@ -35,7 +35,7 @@ export default defineNuxtConfig({
         },
         { property: 'og:type', content: 'website' },
         { property: 'og:image', content: '/og-image.png' },
-        { property: 'og:url', content: 'https://portfolio-syar.vercel.app' },
+        { property: 'og:url', content: 'https://jeetislive-portfolio.vercel.app' },
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:title', content: 'Jeet Pal — Full Stack Developer' },
         { name: 'twitter:description', content: 'Full Stack Developer | MERN Stack | NestJS | Vue.js | Node.js' },
