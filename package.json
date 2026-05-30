@@ -1,0 +1,5 @@
+{
+  "name": "jeet-portfolio",
+  "private": true,
+  "description": "Jeet Pal's Portfolio — Monorepo with Nuxt frontend + NestJS backend"
+}
