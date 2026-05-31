@@ -53,19 +53,20 @@ import { useReveal } from '../composables/useReveal'
 const projects = [
   {
     id: 1,
-    title: 'Authentication System — MERN Stack',
-    year: '2024',
+    title: 'Personal Portfolio Website',
+    year: '2026',
     description:
-      'A production-grade authentication backend built independently on Node.js, Express, and MongoDB. Complete user lifecycle: registration, email verification, JWT sessions, bcrypt password hashing, and secure password recovery flow.',
-    tech: ['Node.js', 'Express.js', 'MongoDB', 'JWT', 'bcrypt.js', 'nodemailer', 'React'],
+      'A production-grade personal portfolio built with Nuxt 3 and NestJS, deployed on Vercel with auto-deployment via GitHub. Features a responsive animated UI with mouse-follower glow effects, SSR-safe theme toggling, and a fully functional contact form backed by Nodemailer SMTP. Monorepo with separate frontend and backend sharing a single GitHub repository.',
+    tech: ['Nuxt 3', 'Vue 3', 'TypeScript', 'NestJS', 'Nodemailer', 'Vercel', 'GitHub Actions'],
     highlights: [
-      'Email verification on registration',
-      'JWT-based stateless authentication',
-      'Bcrypt password hashing (salt rounds)',
-      'Session management with secure logout',
-      'Email-based password recovery',
+      'Nuxt 3 SSG with zero-cost static hosting on Vercel',
+      'NestJS API with global validation and CORS',
+      'Contact form with Nodemailer SMTP integration',
+      'SSR-safe dark/light theme composable',
+      'Animated hero with mouse-follower glow effect',
+      'CI/CD via GitHub Actions + Vercel auto-deploy',
     ],
-    github: 'https://github.com/Jeetislive/auth-tutorial',
+    github: 'https://github.com/Jeetislive/portfolio',
   },
   {
     id: 2,

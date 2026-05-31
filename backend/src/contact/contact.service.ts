@@ -33,7 +33,7 @@ export class ContactService {
           from: `"${dto.name}" <${process.env.SMTP_USER}>`,
           replyTo: dto.email,
           to: process.env.CONTACT_EMAIL_TO,
-          subject: `[Portfolio] ${dto.subject}`,
+          subject: `✉️ Portfolio Contact — ${dto.subject}`,
           html: `
             <!DOCTYPE html>
             <html>

@@ -49,19 +49,20 @@ export class PortfolioService {
       projects: [
         {
           id: 1,
-          title: 'Authentication System using MERN Stack',
-          year: '2024',
+          title: 'Personal Portfolio Website',
+          year: '2026',
           description:
-            'A full-fledged authentication system built with MERN Stack. Backend developed independently using Node.js, Express, MongoDB, JWT, bcrypt.js, and nodemailer. Features include user registration with email verification, JWT-based login, secure password hashing, session management, and password recovery.',
-          tech: ['MongoDB', 'Express.js', 'React', 'Node.js', 'JWT', 'bcrypt.js', 'nodemailer'],
+            'A production-grade personal portfolio built with Nuxt 3 and NestJS, deployed on Vercel with auto-deployment via GitHub. Features a responsive animated UI with mouse-follower glow effects, SSR-safe theme toggling, and a fully functional contact form backed by Nodemailer SMTP. Built as a monorepo with separate frontend and backend projects sharing a single GitHub repository.',
+          tech: ['Nuxt 3', 'Vue 3', 'TypeScript', 'NestJS', 'Nodemailer', 'Vercel', 'GitHub Actions'],
           highlights: [
-            'Email verification on registration',
-            'JWT-based secure authentication',
-            'Bcrypt password hashing',
-            'Session management with logout',
-            'Email-based password recovery',
+            'Nuxt 3 SSG with zero-cost static hosting',
+            'NestJS API with global validation and CORS',
+            'Contact form with Nodemailer SMTP integration',
+            'SSR-safe dark/light theme composable',
+            'Animated hero with mouse-follower glow effect',
+            'CI/CD via GitHub Actions + Vercel auto-deploy',
           ],
-          github: '#',
+          github: 'https://github.com/Jeetislive/portfolio',
         },
         {
           id: 2,
